@@ -1,6 +1,12 @@
 package com.ilyasgrid.webservicegraphql.service;
 
 
+import com.ilyasgrid.webservicegraphql.dto.ReceiveAccount;
+import com.ilyasgrid.webservicegraphql.dto.RequestAccount;
+
+import java.util.List;
+import java.util.Optional;
+
 public interface BankAccountService {
 
     Optional<RequestAccount> addAccount(RequestAccount requestAccount);
