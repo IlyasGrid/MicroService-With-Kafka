@@ -21,7 +21,7 @@ Le projet suit les bonnes pratiques de développement avec une architecture en c
 - **SpringDoc OpenAPI** - Documentation Swagger
 - **Maven** - Gestion des dépendances
 
-## 📦 Structure du Projet
+## Structure du Projet
 
 ```
 src/main/java/com/ilyasgrid/webservicegraphql/
@@ -48,7 +48,7 @@ src/main/resources/
     └── schema.graphqls                     # Schéma GraphQL
 ```
 
-## 🗃️ Entités
+## Entités
 
 ### BankAccount (Entité JPA)
 
@@ -96,7 +96,7 @@ public class RequestAccount {
 }
 ```
 
-## 🔌 API REST
+## API REST
 
 ### REST Controller
 
@@ -156,7 +156,7 @@ Content-Type: application/json
 }
 ```
 
-## 🚀 API GraphQL
+## API GraphQL
 
 ### GraphQL Controller
 
@@ -250,7 +250,7 @@ mutation {
 }
 ```
 
-## 💾 Couche Service
+## Couche Service
 
 ### Interface BankAccountService
 
@@ -326,7 +326,7 @@ public class BankAccountImpl implements BankAccountService {
 }
 ```
 
-## 🗂️ Repository
+## Repository
 
 ```java
 @Repository
@@ -334,7 +334,7 @@ public interface BankAccountRepo extends JpaRepository<BankAccount, Long> {
 }
 ```
 
-## 🚀 Démarrage du Projet
+## Démarrage du Projet
 
 ### Prérequis
 - Java 17 ou supérieur
@@ -360,7 +360,7 @@ mvn spring-boot:run
 
 L'application démarre sur `http://localhost:8080`
 
-## 📚 Documentation et Tests
+## Documentation et Tests
 
 ### Swagger UI
 Accéder à la documentation Swagger :
